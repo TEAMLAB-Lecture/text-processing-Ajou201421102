@@ -81,8 +81,8 @@ def no_vowels(input_string):
     samplelist = list(no_vowel_string)
     result = ""
     for words in samplelist:
-        if words!='a' and words!='e' and words!='i' and words!='o' and words!='u':
+        if words!='a' and words!='e' and words!='i' and words!='o' and words!='u' and words!='A' and words!='E' and words!='I' and words!='O' and words!='U':
             result += words
     return result
 
-print(no_vowels("This is an example."))
+print(no_vowels("AEIOU"))
